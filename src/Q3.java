@@ -17,8 +17,8 @@ public class Q3 {
 			if(map.containsKey(key)){
 				j = Math.max(j, map.get(key));
 			}
-			maxLength = Math.max(maxLength, i - j);
-			map.put(key, i);
+			maxLength = Math.max(maxLength, i - j + 1);
+			map.put(key, i + 1);
 		}
 		
 		return maxLength;
