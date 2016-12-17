@@ -10,7 +10,6 @@ public class Q340 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 	}
 	
 	public int lengthOfLongestSubstringKDistinct(String s, int k) {
